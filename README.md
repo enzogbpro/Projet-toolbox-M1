@@ -2,7 +2,6 @@
 
 Ce projet est une collection d'outils de Pentesting accessibles via une interface graphique. Il suffit de lancer `box.py` pour accéder à toutes les fonctionnalités sans avoir à exécuter les scripts individuellement.
 
-## Fonctionnalités
 
 - **Bruteforce SSH** : Tente de se connecter à un serveur SSH en utilisant essayant plusieur mot de passe.
 - **Scan de Ports** : Utilise Nmap pour scanner les ports d'une adresse IP.
@@ -10,7 +9,18 @@ Ce projet est une collection d'outils de Pentesting accessibles via une interfac
 - **Scan de Vulnérabilités** : Scan une adresse IP à la recherche de vulnérabilités sur les services ouverts.
 - **Scan de Fichiers** : Scanne un fichier pour les virus.
 - **Génération de Rapport PDF** : Génère un rapport PDF des résultats des différents scans.
-  
+
+## Prérequis
+Processeur : Un processeur moderne multicœur est recommandé (Intel Core i5 ou équivalent).
+Mémoire : Au moins 8 Go de RAM.
+Stockage : Un minimum de 256 Go d'espace de stockage, de préférence un SSD pour de meilleures performances.
+Réseau : Accès à Internet pour les requêtes API de VirusTotal et pour télécharger les dépendances si nécessaire.
+1. `Processeur` : Un processeur moderne multicœur est recommandé (minimum Intel Core i5 ou équivalent).
+2. `Mémoire` : 8 Go de RAM mininum.
+3. `Stockage` : Un minimum de 256 Go d'espace de stockage sur SSD de préférence.
+4. `Réseau` : Accès à Internet pour les requêtes API.
+5. `Système d'exploitation` : Windows 10/11 (64 bits).
+
 ## Installation
 
 Pour exécuter ce projet, vous devez importer les bibliothèques Python suivantes :
