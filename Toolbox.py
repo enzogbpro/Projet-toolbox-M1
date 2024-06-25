@@ -1,3 +1,4 @@
+# Il est important de modifier les chemins dans le script lorsqu'il fait appel à des ressources externe. Pour cela, nous avons indiqué "Chemin_complet_vers\fichier" !
 import nmap
 import re
 import os
