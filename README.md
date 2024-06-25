@@ -11,13 +11,12 @@ Ce projet est une collection d'outils de Pentesting accessibles via une interfac
 - **Génération de Rapport PDF** : Génère un rapport PDF des résultats des différents scans.
 
 ## Prérequis
-Processeur : Un processeur moderne multicœur est recommandé (Intel Core i5 ou équivalent).
-Mémoire : Au moins 8 Go de RAM.
-Stockage : Un minimum de 256 Go d'espace de stockage, de préférence un SSD pour de meilleures performances.
-Réseau : Accès à Internet pour les requêtes API de VirusTotal et pour télécharger les dépendances si nécessaire.
-1. `Processeur` : Un processeur moderne multicœur est recommandé (minimum Intel Core i5 ou équivalent).
-2. `Mémoire` : 8 Go de RAM mininum.
-3. `Stockage` : Un minimum de 256 Go d'espace de stockage sur SSD de préférence.
+
+Ceci est la configuation minimum recommandé afin de pouvoir démarrer le programme:
+
+1. `Processeur` : Un processeur moderne multicœur est recommandé (Intel Core i5 ou équivalent).
+2. `Mémoire` : 8 Go de RAM.
+3. `Stockage` : 256 Go d'espace de stockage sur SSD de préférence.
 4. `Réseau` : Accès à Internet pour les requêtes API.
 5. `Système d'exploitation` : Windows 10/11 (64 bits).
 
