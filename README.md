@@ -13,7 +13,7 @@ Ce projet est une collection d'outils de Pentesting accessibles via une interfac
   
 ## Installation
 
-Pour exécuter ce projet, vous devez installer les bibliothèques Python suivantes :
+Pour exécuter ce projet, vous devez importer les bibliothèques Python suivantes :
 
 1. `nmap` : Pour utiliser Nmap via Python.
 2. `re` : Pour les expressions régulières.
@@ -39,7 +39,6 @@ Pour exécuter ce projet, vous devez installer les bibliothèques Python suivant
 ### Installation des dépendances
 
 Vous pouvez installer toutes les dépendances en utilisant les commandes `pip` suivantes :
-Installation de Nmap
 
 ```bash
 pip install python-nmap
@@ -60,7 +59,7 @@ En plus des bibliothèques Python, vous devez également installer Nmap sur votr
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### Installation des dépendances
+### Utilisation de la toolbox
 
 Pour utiliser la toolbox, il suffit de lancer le script box.py :
 python box.py
