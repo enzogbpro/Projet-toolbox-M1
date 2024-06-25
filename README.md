@@ -4,11 +4,11 @@ Ce projet est une collection d'outils de Pentesting accessibles via une interfac
 
 ## Fonctionnalités
 
-- **Bruteforce SSH** : Tente de se connecter à un serveur SSH en utilisant une liste de mots de passe, puis des combinaisons basées sur le nom d'utilisateur, puis une série aléatoire allant de 8 à 12 caractères.
+- **Bruteforce SSH** : Tente de se connecter à un serveur SSH en utilisant essayant plusieur mot de passe.
 - **Scan de Ports** : Utilise Nmap pour scanner les ports d'une adresse IP.
 - **Scan Réseau** : Capture les paquets sur une interface réseau spécifiée.
 - **Scan de Vulnérabilités** : Scan une adresse IP à la recherche de vulnérabilités sur les services ouverts.
-- **Scan de Fichiers** : Scanne un fichier pour les virus en utilisant l'API de VirusTotal.
+- **Scan de Fichiers** : Scanne un fichier pour les virus.
 - **Génération de Rapport PDF** : Génère un rapport PDF des résultats des différents scans.
   
 ## Installation
@@ -54,17 +54,13 @@ pip install requests
 Installation de Nmap
 En plus des bibliothèques Python, vous devez également installer Nmap sur votre système. Vous pouvez télécharger et installer Nmap à partir du site officiel de Nmap.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Fichiers ZIP
-allitems.zip : Contient une base de données locale des CVE utilisée par l'outil de recherche de CVE. Il est nécessaire de dézipper ce fichier pour utiliser la fonctionnalité de recherche de CVE.
-rockyou.zip : Contient une liste de mots de passe couramment utilisés, utile pour le cracking de mots de passe. Il est nécessaire de dézipper ce fichier pour utiliser la fonctionnalité de cracking de mots de passe.
-
+Installation de Python
+En plus des bibliothèques Python, vous devez également installer Nmap sur votre système. Vous pouvez télécharger et installer Nmap à partir du site officiel de Nmap.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Instructions pour dézipper allitems.zip et rockyou.zip
-Téléchargez les fichiers allitems.zip et rockyou.zip à partir de la source fournie.
-Extrayez le contenu des fichiers zip dans le répertoire du projet.
-Assurez-vous que les fichiers extraits se trouvent dans le même répertoire que box.py.
 
-Utilisation
+
+### Installation des dépendances
+
 Pour utiliser la toolbox, il suffit de lancer le script box.py :
 python box.py
 Cela ouvrira une interface graphique permettant d'accéder à toutes les fonctionnalités décrites ci-dessus.
