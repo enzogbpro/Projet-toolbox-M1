@@ -8,7 +8,8 @@ Ce projet est une collection d'outils de Pentesting accessibles via une interfac
 - **Scan Réseau** : Capture les paquets sur une interface réseau spécifiée.
 - **Scan de Vulnérabilités** : Scan une adresse IP à la recherche de vulnérabilités sur les services ouverts.
 - **Scan de Fichiers** : Scanne un fichier pour les virus.
-- **Génération de Rapport PDF** : Génère un rapport PDF des résultats des différents scans.
+- **Génération de Rapport** : Génère un rapport des résultats des différents scans.
+-  **Langue** : Il est possible de basculer la langue du français à l'anglais
 
 ## Prérequis
 
@@ -34,19 +35,17 @@ Pour exécuter ce projet, vous devez importer les bibliothèques Python suivante
 8. `socket` : Pour les opérations réseau.
 9. `psutil` :  Pour interagir avec les interfaces réseau.
 10. `scapy` : Pour la capture de paquets réseau
-11. `subprocess` : Pour exécuter des sous-processus.
-12. `fpdf` : Pour la génération de rapports PDF.
-13. `matplotlib.pyplot` : Pour la génération de graphiques.
-14. `time` : Pour la gestion du temps.
-15. `random` : Pour générer des valeurs aléatoires.
-16. `string` : Pour les opérations sur les chaînes de caractères.
-17. `PIL` : Pour certaines fonctionnalités graphiques avancées dans tkinter.
-18. `requests` : Pour envoyer des requêtes HTTP.
-19. `hashlib` : Pour le calcul de hash.
+11. `time` : Pour la gestion du temps.
+12. `random` : Pour générer des valeurs aléatoires.
+13. `string` : Pour les opérations sur les chaînes de caractères.
+14. `PIL` : Pour certaines fonctionnalités graphiques avancées dans tkinter.
+15. `requests` : Pour envoyer des requêtes HTTP.
+16. `hashlib` : Pour le calcul de hash.
 
+### Installation de Pyhton
+Installer Python 3.7 ou supérieur
 
 ### Installation des dépendances
-
 Vous pouvez installer toutes les dépendances en utilisant les commandes `pip` suivantes :
 
 ```bash
@@ -54,49 +53,55 @@ pip install python-nmap
 pip install paramiko
 pip install psutil
 pip install scapy
-pip install fpdf
-pip install matplotlib
 pip install pillow
 pip install requests
 ```
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Installation de Nmap
 En plus des bibliothèques Python, vous devez également installer Nmap sur votre système. Vous pouvez télécharger et installer Nmap à partir du site officiel de Nmap.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Installation de Pyhton
-En plus des bibliothèques Python, vous devez également installer Nmap sur votre système. Vous pouvez télécharger et installer Nmap à partir du site officiel de Nmap.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 
 ### Utilisation de la toolbox
 
-Pour utiliser la toolbox, il suffit de lancer le script box.py :
-python box.py
+Pour utiliser la toolbox, il suffit de lancer le fichier "Toolbox.py" :
+
 Cela ouvrira une interface graphique permettant d'accéder à toutes les fonctionnalités décrites ci-dessus.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Détails des scripts
-Keylogger
-Enregistre les frappes de touches et les sauvegarde dans un fichier listkey.txt.
+### Détails des scripts
 
-Bruteforce SSH
-Utilise paramiko pour tenter de se connecter à un serveur SSH en utilisant une liste de noms d'utilisateur et de mots de passe.
+Brute Force SSH
 
-Bruteforce Web Login
-Envoie des requêtes HTTP POST à une page de login web pour tenter de se connecter en utilisant une liste de mots de passe.
+Description : Utilise paramiko pour tenter de se connecter à un serveur SSH en utilisant une liste de noms d'utilisateur et de mots de passe.
+Utilisation : Permet d'effectuer une attaque par force brute sur un serveur SSH pour trouver des informations d'identification valides.
 
-Scanner ARP
-Utilise scapy pour envoyer des requêtes ARP sur une plage d'adresses IP et affiche les périphériques connectés.
+Scan de Ports
 
-Recherche de CVE
-Recherche des CVE dans un fichier local allitems.txt et affiche les résultats.
+Description : Utilise python-nmap pour intégrer Nmap dans la toolbox et scanner les ports d'une adresse IP ou d'un réseau.
+Utilisation : Scanne les ports ouverts sur une cible spécifiée pour identifier les services en cours d'exécution.
 
-Cracker de mots de passe
-Utilise John the Ripper pour cracker des hashes de mots de passe. Les options peuvent être configurées via l'interface graphique.
+Scan réseau
 
-Scanner de vulnérabilités web
-Scanne un site web pour des vulnérabilités courantes comme les injections SQL et le XSS. Utilise requests et beautifulsoup4 pour envoyer des requêtes et analyser les réponses.
+Description : Utilise scapy pour capturer les paquets réseau transitant par une interface réseau sélectionnée.
+Utilisation : Surveille le trafic réseau, diagnostique les problèmes de réseau et analyse les communications entre différents hôtes.
 
-Scanner Nmap
-Utilise python-nmap pour intégrer Nmap dans la toolbox et scanner les ports d'une adresse IP ou d'un réseau.
+Scan de Vulnérabilités
+
+Description : Utilise nmap avec des scripts de détection de vulnérabilités pour scanner les ports et services ouverts sur une cible.
+Utilisation : Identifie les vulnérabilités potentielles (CVE) sur les services en cours d'exécution.
+
+Scan de fichiers
+
+Description : Utilise requests pour envoyer des fichiers à VirusTotal et vérifier leur contenu pour détecter des virus.
+Utilisation : Sélectionne un fichier local et le scanne pour détecter des virus à l'aide de plusieurs moteurs antivirus.
+Génération de rapport PDF
+
+Description : Génère un rapport HTML des résultats des scans et des tests effectués, puis l'ouvre dans un navigateur web.
+Utilisation : Compile les résultats des tests et des scans en un rapport facilement consultable.
+
+Sélection de la langue
+
+Description : Interface utilisateur multilingue avec la possibilité de basculer entre l'anglais et le français.
+Utilisation : Change la langue de l'interface pour s'adapter aux préférences de l'utilisateur en cliquant sur les drapeaux.
 
 Ce README fournit une description complète du projet, des fonctionnalités disponibles, des étapes d'installation et des détails d'utilisation pour chaque outil inclus.
