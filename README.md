@@ -44,7 +44,7 @@ Pour exécuter ce projet, vous devez importer les bibliothèques Python suivante
 
 ### Installation de Pyhton
 Installer Python 3.7 ou supérieur
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Installation des dépendances
 Vous pouvez installer toutes les dépendances en utilisant les commandes `pip` suivantes :
 
@@ -57,7 +57,7 @@ pip install pillow
 pip install requests
 ```
 
-Installation de Nmap
+###Installation de Nmap
 En plus des bibliothèques Python, vous devez également installer Nmap sur votre système. Vous pouvez télécharger et installer Nmap à partir du site officiel de Nmap.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -103,5 +103,5 @@ Sélection de la langue
 
 Description : Interface utilisateur multilingue avec la possibilité de basculer entre l'anglais et le français.
 Utilisation : Change la langue de l'interface pour s'adapter aux préférences de l'utilisateur en cliquant sur les drapeaux.
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Ce README fournit une description complète du projet, des fonctionnalités disponibles, des étapes d'installation et des détails d'utilisation pour chaque outil inclus.
