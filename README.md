@@ -11,7 +11,7 @@ Ce projet est une collection d'outils de Pentesting accessibles via une interfac
 - **Génération de Rapport** : Génère un rapport des résultats des différents scans.
 -  **Langue** : Il est possible de basculer la langue du français à l'anglais
 
-## Prérequis
+### Prérequis
 
 Ceci est la configuation minimum recommandé afin de pouvoir démarrer le programme:
 
@@ -21,7 +21,7 @@ Ceci est la configuation minimum recommandé afin de pouvoir démarrer le progra
 4. `Réseau` : Accès à Internet pour les requêtes API.
 5. `Système d'exploitation` : Windows 10/11 (64 bits).
 
-### Installation
+## Installation
 
 Pour exécuter ce projet, vous devez importer les bibliothèques Python suivantes :
 
@@ -42,10 +42,10 @@ Pour exécuter ce projet, vous devez importer les bibliothèques Python suivante
 15. `requests` : Pour envoyer des requêtes HTTP.
 16. `hashlib` : Pour le calcul de hash.
 
-## Installation de Pyhton
+### Installation de Pyhton
 Les bibliothèques et modules utilisés dans le script sont compatibles avec Python 3.7 et versions ultérieures.
 
-## Installation des dépendances sur Python
+### Installation des dépendances sur Python
 Vous pouvez installer toutes les dépendances en utilisant les commandes `pip` suivantes :
 
 ```bash
@@ -57,10 +57,10 @@ pip install pillow
 pip install requests
 ```
 
-## Installation de Nmap
+### Installation de Nmap
 En plus des bibliothèques Python, vous devez également installer Nmap sur votre système. Vous pouvez télécharger et installer Nmap à partir du site officiel de Nmap.
 
-### Utilisation de la toolbox
+## Utilisation de la toolbox
 
 Pour utiliser la toolbox, il suffit de lancer le fichier "Toolbox.py" :
 
