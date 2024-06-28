@@ -43,7 +43,7 @@ Pour exécuter ce projet, vous devez importer les bibliothèques Python suivante
 16. `hashlib` : Pour le calcul de hash.
 
 ## Installation de Pyhton
-Installer Python 3.7 ou supérieur
+En plus des bibliothè
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Installation des dépendances
 Vous pouvez installer toutes les dépendances en utilisant les commandes `pip` suivantes :
