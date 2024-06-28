@@ -45,7 +45,7 @@ Pour exécuter ce projet, vous devez importer les bibliothèques Python suivante
 ## Installation de Pyhton
 Les bibliothèques et modules utilisés dans le script sont compatibles avec Python 3.7 et versions ultérieures.
 
-## Installation des dépendances
+## Installation des dépendances sur Python
 Vous pouvez installer toutes les dépendances en utilisant les commandes `pip` suivantes :
 
 ```bash
