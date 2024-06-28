@@ -21,7 +21,7 @@ Ceci est la configuation minimum recommandé afin de pouvoir démarrer le progra
 4. `Réseau` : Accès à Internet pour les requêtes API.
 5. `Système d'exploitation` : Windows 10/11 (64 bits).
 
-## Installation
+### Installation
 
 Pour exécuter ce projet, vous devez importer les bibliothèques Python suivantes :
 
