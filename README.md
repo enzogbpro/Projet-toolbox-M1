@@ -45,7 +45,7 @@ Pour exécuter ce projet, vous devez importer les bibliothèques Python suivante
 ## Installation de Pyhton
 Les bibliothèques et modules utilisés dans le script sont compatibles avec Python 3.7 et versions ultérieures.
 
-### Installation des dépendances
+## Installation des dépendances
 Vous pouvez installer toutes les dépendances en utilisant les commandes `pip` suivantes :
 
 ```bash
@@ -57,7 +57,7 @@ pip install pillow
 pip install requests
 ```
 
-##Installation de Nmap
+## Installation de Nmap
 En plus des bibliothèques Python, vous devez également installer Nmap sur votre système. Vous pouvez télécharger et installer Nmap à partir du site officiel de Nmap.
 
 ### Utilisation de la toolbox
