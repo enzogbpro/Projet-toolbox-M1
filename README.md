@@ -102,5 +102,5 @@ Sélection de la langue
 
 Description : Interface utilisateur multilingue avec la possibilité de basculer entre l'anglais et le français.
 Utilisation : Change la langue de l'interface pour s'adapter aux préférences de l'utilisateur en cliquant sur les drapeaux.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Ce README fournit une description complète du projet, des fonctionnalités disponibles, des étapes d'installation et des détails d'utilisation pour chaque outil inclus.
+
+## Ce README fournit une description complète du projet, des fonctionnalités disponibles, des étapes d'installation et des détails d'utilisation pour chaque outil inclus.
