@@ -67,7 +67,7 @@ Pour utiliser la toolbox, il suffit de lancer le fichier "Toolbox.py" :
 Cela ouvrira une interface graphique permettant d'accéder à toutes les fonctionnalités décrites ci-dessus.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Détails des scripts
+# Détails des scripts
 
 Brute Force SSH
 
