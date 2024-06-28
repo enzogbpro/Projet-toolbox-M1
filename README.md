@@ -42,7 +42,7 @@ Pour exécuter ce projet, vous devez importer les bibliothèques Python suivante
 15. `requests` : Pour envoyer des requêtes HTTP.
 16. `hashlib` : Pour le calcul de hash.
 
-### Installation de Pyhton
+## Installation de Pyhton
 Installer Python 3.7 ou supérieur
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Installation des dépendances
