@@ -41,10 +41,10 @@ Pour exécuter ce projet, vous devez importer les bibliothèques Python suivante
 14. `PIL` : Pour certaines fonctionnalités graphiques avancées dans tkinter.
 15. `requests` : Pour envoyer des requêtes HTTP.
 16. `hashlib` : Pour le calcul de hash.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Installation de Pyhton
 Les bibliothèques et modules utilisés dans le script sont compatibles avec Python 3.7 et versions ultérieures.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Installation des dépendances
 Vous pouvez installer toutes les dépendances en utilisant les commandes `pip` suivantes :
 
@@ -56,7 +56,7 @@ pip install scapy
 pip install pillow
 pip install requests
 ```
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ##Installation de Nmap
 En plus des bibliothèques Python, vous devez également installer Nmap sur votre système. Vous pouvez télécharger et installer Nmap à partir du site officiel de Nmap.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
