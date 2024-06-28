@@ -41,7 +41,7 @@ Pour exécuter ce projet, vous devez importer les bibliothèques Python suivante
 14. `PIL` : Pour certaines fonctionnalités graphiques avancées dans tkinter.
 15. `requests` : Pour envoyer des requêtes HTTP.
 16. `hashlib` : Pour le calcul de hash.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Installation de Pyhton
 
 Les bibliothèques et modules utilisés dans le script sont compatibles avec Python 3.7 et versions ultérieures.
